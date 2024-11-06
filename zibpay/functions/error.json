@@ -1,0 +1,1 @@
+SELECT post_id,COUNT(*) as count,SUM(income_price) as income FROM aaa_zibpay_order WHERE `status`=1 and income_price > 0 GROUP by post_id
